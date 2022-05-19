@@ -2,12 +2,19 @@
 import React from 'react';
 import Header from './views/header';
 import './App.css';
+import Footer from './views/Footer';
+import About from './views/About';
+import GetStarted from './views/GetStarted';
+import Grouping from './views/Grouping';
 
 function App() {
-  let name = "dunstan";
   return (
-    <div className="App"> 
+    <div> 
        <Header />
+       <About />
+       <GetStarted />
+       <Grouping />
+       <Footer />
     </div>
   );
 }

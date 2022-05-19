@@ -250,43 +250,38 @@ h6,
 /*** Service ***/
 .service-item {
     position: relative;
-    height: 350px;
     padding: 30px 25px;
     background: #FFFFFF;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
 
-.service-item:hover {
+/* .service-item:hover {
     background: var(--primary);
-}
+} */
 
 .service-item .service-icon {
-    margin: 0 auto 20px auto;
-    width: 90px;
-    height: 90px;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     color: var(--light);
-    background: url(../img/icon-shape-primary.png) center center no-repeat;
     transition: .5s;
 }
 
-.service-item:hover .service-icon {
+/* .service-item:hover .service-icon {
     color: var(--primary);
     background: url(../img/icon-shape-white.png);
-}
+} */
 
 .service-item h5,
 .service-item p {
     transition: .5s;
 }
 
-.service-item:hover h5,
+/* .service-item:hover h5,
 .service-item:hover p {
     color: var(--light);
-}
+} */
 
 .service-item a.btn {
     position: relative;
